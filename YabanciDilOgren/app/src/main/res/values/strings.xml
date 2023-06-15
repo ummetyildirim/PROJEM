@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Yabanci Dil Ogren</string>
+
+    <string name="mainbaslik">Öğrenmek İstediğiniz Alanı Aşağıdan Seçiniz </string>
+    <string name="meslekbtn">MESLEKLER</string>
+    <string name="renkler">RENKLER</string>
+    <string name="rakamlar">RAKAMLAR</string>
+    <string name="meyveler">MEYVELER</string>
+
+    //meslekler
+
+    <string name="ogretmen">Öğretmen = Teacher</string>
+    <string name="asker">Asker = Soldier</string>
+    <string name="ciftci">Çiftçi = Farmer</string>
+    <string name="polis">Polis = Police</string>
+    <string name="itfaiyeci">İtfaiyeci = Fireman</string>
+    <string name="firinci">Fırıncı = Baker</string>
+    <string name="doktor">Doktor = Doctor</string>
+    <string name="kaptan">Kaptan = Captain </string>
+    <string name="avukat">Avukat = lawyer</string>
+    <string name="bahcıva">Bahçıvan = Gardener</string>
+//renkler
+
+    <string name="gri">GREY</string>
+    <string name="mavi">BLUE</string>
+    <string name="mor">PURPLE</string>
+    <string name="sari">YELLOW</string>
+    <string name="yesil">GREEN</string>
+    <string name="turuncu">ORANGE</string>
+    <string name="pembe">PİNK</string>
+    <string name="siyah">BLACK</string>
+    <string name="beyaz">WHİTE</string>
+    <string name="kahverengi">BROWN</string>
+
+    //meyveler
+    <string name="ananas">PINEAPPLE</string>
+    <string name="muz">BANANA</string>
+    <string name="kivi">KIWI</string>
+    <string name="seftali">PEACH</string>
+    <string name="karpuz">MELON</string>
+    <string name="armut">PEAR</string>
+    <string name="limon">LEMON</string>
+    <string name="elma">APPLE</string>
+    <string name="portakal">ORANGE</string>
+    <string name="cilek">STRAWBERRY</string>
+    <string name="kayisi">APRICOT</string>
+
+
+
+</resources>

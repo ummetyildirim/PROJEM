@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/meyvebtn"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#575252"
+    tools:context=".MainActivity">
+
+
+    <TextView
+
+        android:id="@+id/mainbaslik"
+        android:layout_width="414dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/mainbaslik"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/meslekbtn"
+        android:layout_width="213dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="37dp"
+        android:backgroundTint="#353434"
+        android:text="@string/meslekbtn"
+        android:textColor="#FAFAFA"
+        app:layout_constraintBottom_toTopOf="@+id/rakambtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainbaslik" />
+
+    <Button
+        android:id="@+id/rakambtn"
+        android:layout_width="213dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="99dp"
+        android:backgroundTint="#353434"
+        android:text="@string/rakamlar"
+        android:textColor="#FAFAFA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/meslekbtn" />
+
+    <Button
+        android:id="@+id/renklerbtn"
+        android:layout_width="213dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="99dp"
+        android:backgroundTint="#353434"
+        android:text="@string/renkler"
+        android:textColor="#FAFAFA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rakambtn" />
+
+    <Button
+        android:id="@+id/meyvelerbtn"
+        android:layout_width="213dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="99dp"
+        android:backgroundTint="#353434"
+        android:text="@string/meyveler"
+        android:textColor="#FAFAFA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/renklerbtn" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
